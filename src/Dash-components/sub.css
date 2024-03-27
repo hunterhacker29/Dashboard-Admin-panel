@@ -1,0 +1,110 @@
+/* Reset some default styles */
+main, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+/* Header styles */
+main h1 {
+    text-align: center;
+}
+
+/* Subscription plans styles */
+.sub-plans {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.sub-plan {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sub-plan h2 {
+    color: #333;
+}
+
+.featured {
+    border: 2px solid #3498db;
+}
+
+.sub-price {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+/* Payment form styles */
+.sub-payment {
+    margin-top: 40px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    grid-column: span 2;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Guarantee section styles */
+.sub-guarantee {
+    margin-top: 40px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #333;
+    color: #fff;
+}

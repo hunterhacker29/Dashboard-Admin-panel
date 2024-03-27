@@ -1,0 +1,37 @@
+/* Styles for navigation, main sections, typography, colors, etc. */
+
+
+.hero {
+    /* background-image: url(""); */
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.about-mission, .meet-the-team, .community-spotlight, .get-involved, .contact-us {
+    padding: 30px;
+}
+
+.ab-team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ab-team-member {
+    margin: 20px;
+    text-align: center;
+}
+
+
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer a {
+  color: #333;
+  text-decoration: none;
+}
